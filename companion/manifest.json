@@ -1,18 +1,18 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
 	"type": "connection",
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "carousel-signage",
+	"name": "Carousel Digital Signage",
+	"shortname": "carousel",
+	"description": "Route Carousel players to channels, manage timed overrides, and select CAP alerts",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-carousel-signage.git",
+	"bugs": "https://github.com/bitfocus/companion-module-carousel-signage/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Eric Busby",
+			"github": "ericbusby77"
 		}
 	],
 	"runtime": {
@@ -22,7 +22,7 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Carousel Digital Signage",
+	"products": ["Carousel Cloud", "Carousel Digital Signage"],
+	"keywords": ["digital signage", "channel", "player", "screen", "routing"]
 }
